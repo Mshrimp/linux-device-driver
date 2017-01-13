@@ -1,4 +1,4 @@
-obj-m += module.o
+obj-m += test.o
 
 #KERNEL_DIR := /lib/modules/$(shell uname -r)/build
 KERNEL_DIR := /home/$(USER)/code/linux-3.5

@@ -21,4 +21,6 @@ module_init(test_init);
 module_exit(test_exit);
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mshrimp chiyuan.ma@outlook.com");
+MODULE_VERSION("1.0");
 
