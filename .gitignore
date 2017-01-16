@@ -31,3 +31,11 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Driver files
+*.mod.*
+*.order
+*.symvers
+*.cmd
+*_versions
+
