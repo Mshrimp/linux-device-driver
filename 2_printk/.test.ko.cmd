@@ -1,0 +1,1 @@
+cmd_/home/mcy/nfsroot/mcy/linux-device-driver/2_printk/test.ko := arm-linux-ld -EL -r  -T /home/mcy/code/linux-3.5/scripts/module-common.lds --build-id  -o /home/mcy/nfsroot/mcy/linux-device-driver/2_printk/test.ko /home/mcy/nfsroot/mcy/linux-device-driver/2_printk/test.o /home/mcy/nfsroot/mcy/linux-device-driver/2_printk/test.mod.o

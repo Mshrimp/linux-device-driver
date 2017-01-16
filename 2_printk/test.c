@@ -1,6 +1,6 @@
 #include <linux/module.h>
 
-int init_module(void)
+int test_init(void)
 {
 	printk("<0>" "level 0\n");
 	printk("<1>" "level 1\n");
@@ -13,11 +13,13 @@ int init_module(void)
 	return 0;
 }
 
-void exit_module(void)
+void test_exit(void)
 {
 	printk("Cleanup module\n");
 }
 
+module_init(test_init);
+module_exit(test_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Mshrimp chiyuan.ma@outlook.com");
